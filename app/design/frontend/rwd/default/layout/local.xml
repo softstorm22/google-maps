@@ -10,10 +10,5 @@
 				</action>
 			</block>
 		</reference>
-        <reference name="content">
-			<block type="cms/block" name="mapsblock" before="-">
-				<action method="setBlockId"><block_id>google-maps</block_id></action>
-			</block>
-        </reference>
     </contacts_index_index>
 </layout>
