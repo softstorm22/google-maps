@@ -5,7 +5,7 @@
 		<reference name="head">
 			<block type="core/text" name="google.maps">
 				<action method="setText">
-					<text><![CDATA[<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.17"></script>]]>
+					<text><![CDATA[<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.17"></script>]]>
 					</text>
 				</action>
 			</block>
