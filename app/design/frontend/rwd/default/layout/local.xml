@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+	<contacts_index_index>
+		<reference name="head">
+			<block type="core/text" name="google.maps">
+				<action method="setText">
+					<text><![CDATA[<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.17"></script>]]>
+					</text>
+				</action>
+			</block>
+		</reference>
+        <reference name="content">
+            <block type="core/template" name="google_map" template="contacts/googlemap.phtml" before="-"/>
+        </reference>
+    </contacts_index_index>
+</layout>
